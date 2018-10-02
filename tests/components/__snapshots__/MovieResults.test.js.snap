@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieResults matches the snapshot 1`] = `
+<div>
+  <ul>
+    <li>
+      <h2>
+        pulp fiction
+         - 
+        1995
+      </h2>
+      <div>
+        <span>
+          Movie has 
+          0
+           likes
+        </span>
+        <button
+          onClick={[Function]}
+        >
+          Like
+        </button>
+      </div>
+      <img
+        src="N/A"
+      />
+    </li>
+    <li>
+      <h2>
+        another film
+         - 
+        1996
+      </h2>
+      <div>
+        <span>
+          Movie has 
+          0
+           likes
+        </span>
+        <button
+          onClick={[Function]}
+        >
+          Like
+        </button>
+      </div>
+      <img
+        src="N/A"
+      />
+    </li>
+    <li>
+      <h2>
+        another film
+         - 
+        1996
+      </h2>
+      <div>
+        <span>
+          Movie has 
+          0
+           likes
+        </span>
+        <button
+          onClick={[Function]}
+        >
+          Like
+        </button>
+      </div>
+      <img
+        src="N/A"
+      />
+    </li>
+  </ul>
+</div>
+`;

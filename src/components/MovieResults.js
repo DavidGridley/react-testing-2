@@ -1,11 +1,13 @@
-import React from 'react';
-import MovieResult from './MovieResult';
+import React from "react";
+import MovieResult from "./MovieResult";
 
 function MovieResults({ movies }) {
   return (
     <div>
       <ul>
-        {movies.map( movie => <MovieResult key={movie.imdbID} movie={movie} />)}
+        {movies.map(movie => (
+          <MovieResult key={movie.imdbID} movie={movie} />
+        ))}
       </ul>
     </div>
   );
