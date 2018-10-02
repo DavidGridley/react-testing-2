@@ -1,5 +1,5 @@
 import React from "react";
-import MovieResults from "../../src/components/MovieResults";
+import MovieResults from "../../../src/components/MovieResults";
 import renderer from "react-test-renderer";
 
 describe("MovieResults", () => {
