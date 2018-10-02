@@ -21,7 +21,7 @@ describe("App -> submitSearch", () => {
     const instance = wrapper.instance();
     return instance.submitSearch("Batman").then(() => {
       expect(fetch).toHaveBeenCalledWith(
-        'http://omdbapi.com/?s=Batman&apikey=sdfsdfgsdfgssd'
+        "http://omdbapi.com/?s=Batman&apikey=sdfsdfgsdfgssd"
       );
       const moviesState = wrapper.state("movies");
       expect(moviesState.length).toBeGreaterThanOrEqual(0);
